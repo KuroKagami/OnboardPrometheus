@@ -24,7 +24,7 @@
                     </div>
                         <div id="info">
                         <a href="https://github.com/KuroKagami" class="link" target="_blank"><h2>My GitHub</h2></a>
-                        <a rel="noopener" href="./Portifólio.html" class="link">
+                        <a rel="noopener" href="./Portifólio.php" class="link">
                             <h2>Back to Home Page</h2>
                         </a>
                         
