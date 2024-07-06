@@ -1,0 +1,27 @@
+{
+  "_comentarios": [
+        "Este é um exemplo de como você poderia adicionar comentários em JSON.",
+        "Estes campos começando com underline são ignorados pelo sistema, mas podem ser usados para anotações.",
+        "Parenteses é o esboço do JSON, tudo dentro será interpretado como json",
+        "barra é o array e colchete as insformacoes desse array, separando as tabelas por virgula",
+        "tudo dee ser interpretado com aspas dupla ou simples"
+    ],
+
+  "projects": [
+    {
+      "id": "01",
+      "title": "The Uncontrollable Void",
+      "image": "./img/projetos/THE Unconrollable Void.png",
+      "description": "Turn-Based Strategy Game"
+    }
+    ,
+    {
+      "id": "02",
+      "title": "Wishlist Finder",
+      "image": "./img/projetos/WishList Finder.jpg",
+      "description": "Extensão para naveador. O buscador irá buscar o produto da lista em outros sites e comparar o preço em tempo real enquanto o navegador estiver ativo."
+    }
+  ]
+}
+
+
