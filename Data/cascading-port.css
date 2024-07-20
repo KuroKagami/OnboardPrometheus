@@ -98,8 +98,51 @@ button {
 }
 
 /* Estilos adicionais */
-#text, #list {
+#text  {
     margin-top: 20px;
+    font-family: cursive;
+    text-shadow: 0 0 12px rgb(128, 128, 128);
+}
+
+#list {
+    margin-top: 20px;
+    font-family: cursive;
+}
+
+#list .listagem {
+    text-shadow: 0 0 12px rgb(128, 128, 128);
+}
+
+#list .html {
+    text-shadow: 0 0 12px orange;
+}
+
+#list .css {
+    text-shadow: 0 0 12px rgb(22, 197, 255);
+}
+
+#list .js {
+    text-shadow: 0 0 12px yellow;
+}
+
+#list .python {
+    text-shadow: 0 0 12px rgb(0, 255, 34);
+}
+
+#list .php {
+    text-shadow: 0 0 12px rgb(212, 0, 255);
+}
+
+#list .sql {
+    text-shadow: 0 0 12px blue
+}
+
+#list .c1 {
+    text-shadow: 0 0 12px rgb(13, 110, 255);
+}
+
+#list .c2 {
+    text-shadow: 0 0 12px rgb(121, 5, 255);
 }
 
 #robot {
@@ -107,6 +150,8 @@ button {
     max-width: 300px;
     margin-top: 20px;
 }
+
+
 
 /* Estilos para o formulário */
 form {
@@ -151,6 +196,11 @@ fieldset.box-form button.text-button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+textarea {
+    resize: none;
+    font-size: large;
 }
 
 /* Estilos adicionais para a nova página */
@@ -213,9 +263,32 @@ fieldset.box-form button.text-button {
 }
 
 #project-info-container {
-    padding: 20px;
-    background-color: #f8f8f8;
-    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: cursive;
+    text-shadow: 0 0 12px rgb(128, 128, 128);
+}
+
+#project-info-container .title {
+    margin: 5%;
+    margin-top: 8%;
+    font-size: x-large;
+}
+
+.project-image {
+    margin-right: 5px;
+
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}
+
+
+
+#project-info-container .description {
+    font-size: x-large;
+    margin-top: 5%;
+    max-width: 400px;
 }
 
 /* Media Queries para responsividade */

@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portifólio</title>
-    <link rel="stylesheet" href="./Data/CascadingPort.css">
+    <link rel="stylesheet" href="./data/cascading-port.css">
 </head>
 
 <body>
-    <?php include_once('./Data/Header.phtml') ?>
+    <?php include_once('./data/header.phtml') ?>
     <body>
     <div id="box">
         <div id="box-content">
@@ -24,7 +24,7 @@
                     </div>
                         <div id="info">
                         <a href="https://github.com/KuroKagami" class="link" target="_blank"><h2>My GitHub</h2></a>
-                        <a rel="noopener" href="./Portifólio.php" class="link">
+                        <a rel="noopener" href="index.php" class="link">
                             <h2>Back to Home Page</h2>
                         </a>
                         
@@ -41,8 +41,8 @@
         </div>
     </div>
 </body>
-    <?php include_once('./Data/Footer.phtml') ?>
-    <script src="./Data/ScriptProj.js"></script>
+    <?php include_once('./data/footer.phtml') ?>
+    <script src="./data/script-proj.js"></script>
 </body>
 
 </html>

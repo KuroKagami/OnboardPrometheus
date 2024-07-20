@@ -4,7 +4,7 @@
 document.addEventListener('DOMContentLoaded', async function() {
     try {
       // Carrega o arquivo JSON e espera pela resolução da promessa
-      const response = await fetch('./Data/Projetos.json');
+      const response = await fetch('./data/projetos.json');
       const data = await response.json();
   
       // Cria botões e adiciona eventos de clique
