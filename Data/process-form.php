@@ -13,4 +13,5 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
     echo "Not Found Error 404";
 }
 
+include_once './object-form.php';
 ?>

@@ -25,7 +25,7 @@
                     <img id="photo" class="circle" src="./img/me/Me.jpg" alt="Minha-foto">
                     <div id="info">
                         <button id="contactButton" onclick="dynamicDisplayDiv('odd')">Contact Us</button>
-                        <a href="./Projetos.php" class="link">
+                        <a href="./projetos.php" class="link">
                             <h2>My Projects</h2>
                         </a>
                     </div>
